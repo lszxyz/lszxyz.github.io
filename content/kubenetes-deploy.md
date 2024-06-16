@@ -3,7 +3,6 @@ Date: 2024-6-12 20:00
 Modified: 2024-6-12 20:00
 Category: kubenetes
 Tags: pelican, publishing
-Slug: my-super-post
 Authors: zero
 
 # kubenetes碎碎念 debian12 install  ha kubenetes with kube-vip 

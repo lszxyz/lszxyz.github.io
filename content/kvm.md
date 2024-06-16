@@ -3,7 +3,6 @@ Date: 2024-5-8 16:23
 Modified: 024-5-8 16:23
 Category: kvm
 Tags: pelican, publishing
-Slug: my-super-post
 Authors: zero
 
 背景: 买不起服务器、出租房散热供电都不太行、之所以选择kvm、没有选择esxi 或者 proxmox 单纯想折腾一下、kvm里面跑esxi也是ok的嘛 
