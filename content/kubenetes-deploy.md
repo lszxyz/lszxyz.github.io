@@ -53,7 +53,12 @@ export RUNC_VERSION=v1.1.12
 export CNI_PLUGINS_VERSION=v1.5.0
 export NERDCTL_VERSION=1.7.6
 export K9S_VERSION=0.32.5
+export HELM_VERSION=3.15.2
 
+# install helm 
+wget https://get.helm.sh/helm-v${HELM_VERSION}-linux-amd64.tar.gz
+tar -zxvf  helm-v${HELM_VERSION}-linux-amd64.tar.gz
+mv linux-amd64/helm /usr/local/bin
 # install nerdctl
 wget https://github.com/containerd/nerdctl/releases/download/v${NERDCTL_VERSION}/nerdctl-"${NERDCTL_VERSION}"-linux-amd64.tar.gz
 tar -zxvf nerdctl-"${NERDCTL_VERSION}"-linux-amd64.tar.gz
